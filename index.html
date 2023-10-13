@@ -15,11 +15,10 @@
 </head>
 
 <body>
-  <!--ENCABEZADO-->
   <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img
+        <a class="navbar-brand" href="https://roboticacatamarca.com"><img
             src="https://roboticacatamarca.com/wp-content/uploads/2023/05/png_20230508_182927_0000-1-300x152.png" alt=""
             class="LOGO"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
@@ -32,13 +31,13 @@
               <a class="nav-link active" aria-current="page" href="#">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Nosotros</a>
+              <a class="nav-link" href="https://roboticacatamarca.com/quienes-somos/">Nosotros</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Ubicación</a>
+              <a class="nav-link" href="https://www.google.com/maps/place/Caseros+648,+K4702DGB+San+Fernando+del+Valle+de+Catamarca,+Catamarca,+Argentina/@-28.464446,-65.773477,13z/data=!4m5!3m4!1s0x942428954e6ac967:0xe4c20044411a616!8m2!3d-28.4694263!4d-65.7854293?hl=es-ES&entry=ttu">Ubicación</a>
             </li>
             <li class="nav-item">
-              <button type="button" class="BotonWsp">WhatsApp</button>
+              <button id="whatsappButton" type="button" class="BotonWsp">WhatsApp</button>
             </li>
             </li>
           </ul>
@@ -47,7 +46,6 @@
     </nav>
   </header>
 
-  <!--CARRUSEL-->
   <div id="carouselExampleIndicators" class="carousel slide">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -88,123 +86,133 @@
   <br>
   <br>
   <br>
-  <br>  
-  
-     <!--SECCIÓN PRINCIPAL-->
+  <br>
+
   <main>
     <div class="container">
-      <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-12">
-          <div class="card">
-            <figure>
-              <img src="img/araña robotica (1).png">
-              <div class="contenido">
-                <h3>Araña robótica</h3>
-                <p>Es una araña robótica con la capacidad de moverse por sí sola armada con Arduino UNO</p>
-                <a href="#">Leer Más</a>
-              </div>
-            </figure>
+      <div class="card">
+        <figure>
+          <img src="img/araña robotica (1).png" > 
+          <div class="contenido">
+            <h3>Araña robotica</h3>
+            <p>Es una araña robotica con la capacidad de moverse por sí sola armada con Arduino UNO</p>
+            <a href="#">Leer Más</a>
           </div>
-        </div>
-  
-        <div class="col-lg-6 col-md-6 col-sm-12">
-          <div class="card">
-            <figure>
-              <img src="img/auto (1).png" width="200" height="200">
-              <div class="contenido">
-                <h3>Auto robótico</h3>
-                <p>Automóvil autónomo construido con Arduino Uno, fusionando tecnología y movilidad</p>
-                <a href="#">Leer Más</a>
-              </div>
-            </figure>
+        </figure>
+      </div>
+      </div>
+      
+      <div class="container">
+        <div class="card">
+        <figure>
+          <img src="img/auto (1).png" width="200" height="200">
+          <div class="contenido">
+            <h3>Auto robotico</h3>
+            <p>Automóvil autónomo construido con Arduino Uno, fusionando tecnología y movilidad</p>
+            <a href="#">Leer Más</a>
           </div>
-        </div>
-  
-        <div class="col-lg-6 col-md-6 col-sm-12">
-          <div class="card">
-            <figure>
-              <img src="img/barrera (2).png" width="200" height="200">
-              <div class="contenido">
-                <h3>Barrera Autónoma</h3>
-                <p>Es una barrera que se levanta sola cuando se acerca un objeto</p>
-                <a href="#">Leer Más</a>
-              </div>
-            </figure>
-          </div>
-        </div>
-  
-        <div class="col-lg-6 col-md-6 col-sm-12">
-          <div class="card">
-            <figure>
-              <img src="img/gafas para siegos (2).png" width="200" height="200">
-              <div class="contenido">
-                <h3>Gafas Para Ciegos</h3>
-                <p>Gafas para ciegos con Arduino: Solución de movilidad y seguridad con tecnología accesible</p>
-                <a href="#">Leer Más</a>
-              </div>
-            </figure>
-          </div>
-        </div>
-  
-        <div class="col-lg-6 col-md-6 col-sm-12">
-          <div class="card">
-            <figure>
-              <img src="img/auto amogus (1).png" width="200" height="200">
-              <div class="contenido">
-                <h3>Auto Among Us</h3>
-                <p>Es un auto con una cabeza de Among Us</p>
-                <a href="#">Leer Más</a>
-              </div>
-            </figure>
-          </div>
-        </div>
-  
-        <div class="col-lg-6 col-md-6 col-sm-12">
-          <div class="card">
-            <figure>
-              <img src="img/grua (1).png" width="200" height="200">
-              <div class="contenido">
-                <h3>Grúa</h3>
-                <p>Elevación precisa y controlada con tecnología avanzada y versatilidad compacta.</p>
-                <a href="#">Leer Más</a>
-              </div>
-            </figure>
-          </div>
-        </div>
-  
-        <div class="col-lg-6 col-md-6 col-sm-12">
-          <div class="card">
-            <figure>
-              <img src="img/laverinto (1).png" width="200" height="200">
-              <div class="contenido">
-                <h3>Laberinto Automático</h3>
-                <p>Laberinto automático controlado por Arduino Uno, desafía sus caminos con este proyecto interactivo.</p>
-                <a href="#">Leer Más</a>
-              </div>
-            </figure>
-          </div>
-        </div>
-  
-        <div class="col-lg-6 col-md-6 col-sm-12">
-          <div class="card">
-            <figure>
-              <img src="img/robot  (1).png" width="200" height="200">
-              <div class="contenido">
-                <h3>Robot base</h3>
-                <p>Este es un robot que envuelve toda la base de la programación y la robótica ya vista</p>
-                <a href="#">Leer Más</a>
-              </div>
-            </figure>
-          </div>
-        </div>
+        </figure>
       </div>
     </div>
+      
+      <div class="container">
+        <div class="card">
+        <figure>
+          <img src="img/barrera (2).png" width="200" height="200">
+          <div class="contenido">
+            <h3>Barrera Autónoma</h3>
+            <p>Es una barrera que se levanta sola cuando se acerca un objeto</p>
+            <a href="#">Leer Más</a>
+          </div>
+        </figure>
+      </div>
+    </div>
+      
+      <div class="container">
+        <div class="card">
+        <figure>
+          <img src="img/gafas para siegos (2).png" width="200" height="200">
+          <div class="contenido">
+            <h3>Gafas Para Ciegos</h3>
+            <p>Gafas para ciegos con Arduino: Solución de movilidad y seguridad con tecnología accesible</p>
+            <a href="#">Leer Más</a>
+          </div>
+        </figure>
+      </div>
+    </div>
+      
+      <div class="container">
+        <div class="card">
+        <figure>
+          <img src="img/auto amogus (1).png" width="200" height="200">
+          <div class="contenido">
+            <h3>Auto Among Us</h3>
+            <p>Es un auto con una cabeza de Among Us</p>
+            <a href="#">Leer Más</a>
+          </div>
+        </figure>
+      </div>
+      </div>
+      
+      <div class="container">
+        <div class="card">
+        <figure>
+          <img src="img/grua (1).png" width="200" height="200">
+          <div class="contenido">
+            <h3>Grúa</h3>
+            <p>Elevación precisa y controlada con tecnología avanzada y versatilidad compacta.</p>
+            <a href="#">Leer Más</a>
+          </div>
+        </figure>
+      </div>
+      </div>
+      
+      <div class="container">
+        <div class="card">
+        <figure>
+          <img src="img/laverinto (1).png" width="200" height="200">
+          <div class="contenido">
+            <h3>Laberinto Automatico</h3>
+            <p>Laberinto automático controlado por Arduino Uno, desafía sus caminos con este proyecto interactivo.</p>
+            <a href="#">Leer Más</a>
+          </div>
+        </figure>
+      </div>
+      </div>
+      
+      <div class="container">
+        <div class="card">
+        <figure>
+          <img src="img/robot  (1).png" width="200" height="200">
+          <div class="contenido">
+            <h3>Robot base</h3>
+            <p>Este es un robot que envuelve toda la vase de la prougramacion y la robotica ya vista</p>
+            <a href="#">Leer Más</a>
+          </div>
+        </figure>
+      </div>
+      </div>
+      
+      <div class="container">
+        <div class="card">
+        <figure>
+          <img src="img/brazo robotico (1).png" width="200" height="200">
+          <div class="contenido">
+            <h3>Brazo Robótico</h3>
+            <p>precisión y versatilidad en tu control creativo y personalizado</p>
+            <a href="#">Leer Más</a>
+          </div>
+        </figure>
+      </div>
+      </div>
+
+    </div>
+
   </main>
-  
+
   <script src="js/script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
     crossorigin="anonymous"></script>
 </body>
-
 </html>
