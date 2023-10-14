@@ -1,3 +1,7 @@
+body{
+  background-color: #F5F5F5;
+}
+
 .LOGO {
   padding-left: 40%;
   height: 100px;
@@ -71,6 +75,11 @@ img {
   align-items: center;
 }
 
+#tituloCatalogo{
+  font-family: 'Orbitron', sans-serif;
+  margin-bottom: 2%;
+}
+
 .card {
   width: 300px;
   height: 100%;
@@ -92,7 +101,7 @@ img {
 
 .card img {
   width: 100%;
-  height: 150px;
+  height: 180px;
 }
 
 .card .container {
@@ -155,12 +164,12 @@ footer,h4{
 .logoFooter{
   width: 45px;
   margin-right: 6px;
-  transition: width 0.4s ease-in-out;
+  transition: width 0.3s ease-in-out;
   padding-bottom: 2%;
 }
 
 .logoFooter:hover {
-  width: 52px;
+  width: 54px;
 }
 .contenedorRedes{
   color: #CCD1D1 ;
