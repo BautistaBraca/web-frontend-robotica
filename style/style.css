@@ -151,3 +151,17 @@ footer,h4{
   padding-top: 2%;
   padding-bottom: 2%;
 }
+
+.logoFooter{
+  width: 45px;
+  margin-right: 6px;
+  transition: width 0.4s ease-in-out;
+  padding-bottom: 2%;
+}
+
+.logoFooter:hover {
+  width: 52px;
+}
+.contenedorRedes{
+  color: #CCD1D1 ;
+}
