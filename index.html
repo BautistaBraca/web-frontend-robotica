@@ -15,6 +15,7 @@
   <!--Estilos CSS Personalizados-->
   <link rel="stylesheet" href="style/style.css">
 </head>
+
 <body>
   <!--Barra de Navegación-->
   <header>
@@ -33,11 +34,15 @@
               <a class="nav-link active" aria-current="page" href="#">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="https://roboticacatamarca.com/quienes-somos/">Nosotros</a>
+              <a class="nav-link" href="https://roboticacatamarca.com/quienes-somos/" target="_blank">Nosotros</a>
             </li>
             <li class="nav-item">
               <a class="nav-link"
-                href="https://www.google.com/maps/place/Caseros+648,+K4702DGB+San+Fernando+del+Valle+de+Catamarca,+Catamarca,+Argentina/@-28.464446,-65.773477,13z/data=!4m5!3m4!1s0x942428954e6ac967:0xe4c20044411a616!8m2!3d-28.4694263!4d-65.7854293?hl=es-ES&entry=ttu">Ubicación</a>
+                href="https://www.google.com/maps/place/Caseros+648,+K4702DGB+San+Fernando+del+Valle+de+Catamarca,+Catamarca,+Argentina/@-28.464446,-65.773477,13z/data=!4m5!3m4!1s0x942428954e6ac967:0xe4c20044411a616!8m2!3d-28.4694263!4d-65.7854293?hl=es-ES&entry=ttu"
+                target="_blank">Ubicación</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#Contacto">Contacto</a>
             </li>
             <li class="nav-item">
               <button id="whatsappButton" type="button" class="BotonWsp">WhatsApp</button>
@@ -92,7 +97,9 @@
   <br>
   <!--Catálogo de Productos-->
   <main>
-    <div id="tituloCatalogo" class="container-fluid text-center"><h2>Catálogo de nuestros productos</h2></div>
+    <div id="tituloCatalogo" class="container-fluid text-center">
+      <h2>Catálogo de nuestros productos</h2>
+    </div>
     <div class="container">
       <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12">
@@ -101,9 +108,9 @@
               <img src="img/araña robotica (2).png">
               <div class="contenido">
                 <h3>Araña robótica</h3>
-                <p>Araña robótica móvil con Arduino </p>
+                <p>Araña robótica móvil construido con Arduino Uno, autómatico, divertido e intuitivo. </p>
 
-                <button class="btn btn-primary"> Ver más</button>
+                <button class="btn btn-primary"><a href="ArañaRBT.html">Ver más</a></button>
               </div>
             </figure>
           </div>
@@ -112,11 +119,11 @@
         <div class="col-lg-6 col-md-6 col-sm-12">
           <div class="card">
             <figure>
-              <img src="img/auto (1).png" width="200" height="200">
+              <img src="img/gafas para ciegos (2).png" width="200" height="200">
               <div class="contenido">
-                <h3>Auto robótico</h3>
-                <p>Automóvil autónomo construido con Arduino Uno, fusionando tecnología y movilidad</p>
-                <button class="btn btn-primary"> Ver más</button>
+                <h3>Gafas Para Ciegos</h3>
+                <p>Gafas para ciegos con Arduino, movilidad y seguridad con tecnología accesible</p>
+                <button class="btn btn-primary"><a href="Gafas.html">Ver más</a></button>
               </div>
             </figure>
           </div>
@@ -130,20 +137,7 @@
                 <h3>Brazo Robótico</h3>
                 <p>Precisión y versatilidad en tu control creativo y personalizado</p>
 
-                <button class="btn btn-primary"> Ver más</button>
-              </div>
-            </figure>
-          </div>
-        </div>
-
-        <div class="col-lg-6 col-md-6 col-sm-12">
-          <div class="card">
-            <figure>
-              <img src="img/gafas para ciegos (2).png" width="200" height="200">
-              <div class="contenido">
-                <h3>Gafas Para Ciegos</h3>
-                <p>Gafas para ciegos con Arduino: Solución de movilidad y seguridad con tecnología accesible</p>
-                <button class="btn btn-primary"> Ver más</button>
+                <button class="btn btn-primary"><a href="BrazoRBT.html">Ver más</a></button>
               </div>
             </figure>
           </div>
@@ -156,7 +150,7 @@
               <div class="contenido">
                 <h3>Auto Among Us</h3>
                 <p>Es un auto con la cabeza de un personaje del icónico juego "Among Us"</p>
-                <button class="btn btn-primary"> Ver más</button>
+                <button class="btn btn-primary"><a href="AutoAmong.html">Ver más</a></button>
               </div>
             </figure>
           </div>
@@ -168,8 +162,8 @@
               <img src="img/grua (1).png" width="200" height="200">
               <div class="contenido">
                 <h3>Grúa</h3>
-                <p>Elevación precisa y controlada con tecnología avanzada y versatilidad compacta.</p>
-                <button class="btn btn-primary"> Ver más</button>
+                <p>Elevación precisa y controlada con tecnología avanzada y versatilidad.</p>
+                <button class="btn btn-primary"><a href="Grua.html">Ver más</a></button>
               </div>
             </figure>
           </div>
@@ -180,10 +174,10 @@
             <figure>
               <img src="img/laberinto (1).png" width="200" height="200">
               <div class="contenido">
-                <h3>Laberinto Automático</h3>
+                <h3>Laberinto</h3>
                 <p>Laberinto automático controlado por Arduino Uno, desafía sus caminos con este proyecto interactivo.
                 </p>
-                <button class="btn btn-primary"> Ver más</button>
+                <button class="btn btn-primary"><a href="Laberinto.html">Ver más</a></button>
               </div>
             </figure>
           </div>
@@ -196,7 +190,20 @@
               <div class="contenido">
                 <h3>Robot base</h3>
                 <p>Este es un robot que envuelve toda la base de la programación y la robótica ya vista</p>
-                <button class="btn btn-primary"> Ver más</button>
+                <button class="btn btn-primary"><a href="Robotbase.html">Ver más</a></button>
+              </div>
+            </figure>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="card">
+            <figure>
+              <img src="img/auto (1).png" width="200" height="200">
+              <div class="contenido">
+                <h3>Auto robótico</h3>
+                <p>Automóvil autónomo construido con Arduino Uno, fusionando tecnología y movilidad</p>
+                <button class="btn btn-primary"><a href="AutoRBT.html">Ver más</a></button>
               </div>
             </figure>
           </div>
@@ -205,7 +212,7 @@
     </div>
   </main>
   <!--Pie de Página-->
-  <footer class="bg-dark text-white">
+  <footer class="bg-dark text-white" id="Contacto">
     <!--Título-->
     <div id="tituloFooter" class="container text-center">
       <h4>¿Tienes alguna duda? ¡No dudes en contactarnos!</h4>
@@ -267,7 +274,7 @@
           <div class="form-check">
             <input class="form-check-input" type="checkbox" id="gridCheck">
             <label class="form-check-label" for="gridCheck">
-              <a href="">Acepto los términos y condiciones establecidos en Robótica Catamarca</a>
+              <a href="Terminos.html">Acepto los términos y condiciones establecidos en Robótica Catamarca</a>
             </label>
           </div>
         </div>
@@ -280,10 +287,10 @@
     <hr>
     <div class="container-fluid text-center contenedorRedes">
       <h3>Redes sociales</h4>
-          <a href="https://instagram.com/roboticacatamarca?igshid=MzRlODBiNWFlZA=="><img src="img/instagram.svg"
-              class="logoFooter"></a>
-      <a href="https://www.facebook.com/profile.php?id=61550776822058&mibextid=ZbWKwL"><img src="img/facebook.svg"
-        class="logoFooter"></a>
+        <a href="https://instagram.com/roboticacatamarca?igshid=MzRlODBiNWFlZA=="><img src="img/instagram.svg"
+            class="logoFooter"></a>
+        <a href="https://www.facebook.com/profile.php?id=61550776822058&mibextid=ZbWKwL"><img src="img/facebook.svg"
+            class="logoFooter"></a>
         <h5>Copyright 2023 Robótica Catamarca &copy;</h5>
         <p>Todos los derechos reservados</p>
   </footer>

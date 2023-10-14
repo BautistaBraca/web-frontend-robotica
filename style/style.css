@@ -1,5 +1,5 @@
-body{
-  background-color: #F5F5F5;
+body {
+  background-color: #F1F1F1;
 }
 
 .LOGO {
@@ -9,8 +9,7 @@ body{
 }
 
 .LOGO:hover {
-  height: 103px;
-  width: 305px;
+  transform: translateY(-5%);
 }
 
 .navbar {
@@ -29,12 +28,11 @@ body{
 }
 
 .BotonWsp:hover {
-  height: 110%;
-  width: 110%;
+  transform: translateY(-5%);
 }
 
 .nav-item {
-  padding-left: 30%;
+  padding-left: 17%;
   font-family: 'Orbitron', sans-serif;
   font-size: 16px;
 }
@@ -57,12 +55,12 @@ a.nav-link:hover {
   height: 100% !important;
 }
 
-.carousel-inner{
+.carousel-inner {
   height: 100%;
   width: 100%;
 }
 
-img {
+.carousel-inner img {
   height: 100%
 }
 
@@ -75,7 +73,7 @@ img {
   align-items: center;
 }
 
-#tituloCatalogo{
+#tituloCatalogo {
   font-family: 'Orbitron', sans-serif;
   margin-bottom: 2%;
 }
@@ -151,17 +149,17 @@ img {
   margin-top: 3%;
 }
 
-footer{
+footer {
   font-family: 'Orbitron', sans-serif;
   margin-top: 10%;
 }
 
-footer,h4{
+footer, h4 {
   padding-top: 2%;
   padding-bottom: 2%;
 }
 
-.logoFooter{
+.logoFooter {
   width: 45px;
   margin-right: 6px;
   transition: width 0.3s ease-in-out;
@@ -171,6 +169,38 @@ footer,h4{
 .logoFooter:hover {
   width: 54px;
 }
-.contenedorRedes{
-  color: #CCD1D1 ;
+
+.contenedorRedes {
+  color: #CCD1D1;
+}
+
+.TyC h1 {
+  text-align: center;
+}
+
+.TyC h3 {
+  text-align: center;
+}
+
+.TyC p {
+  text-align: center;
+}
+
+.btn-primary a {
+  text-decoration: none;
+  color: black;
+}
+
+.btn-primary a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+#imagenProducto{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#contenedorProducto{
+  margin-top: 15%;
 }
