@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Robot Base</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
   <!--Icono Web-->
   <link rel="icon" href="img/icono.png">
   <!--Link CDN Bootstrap-->
@@ -13,54 +14,101 @@
   <!--Estilos CSS Personalizados-->
   <link rel="stylesheet" href="style/style.css">
 </head>
-<body>
-    <!--Barra de Navegación-->
-    <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><img
-                src="https://roboticacatamarca.com/wp-content/uploads/2023/05/png_20230508_182927_0000-1-300x152.png" alt=""
-                class="LOGO"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-              aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="https://roboticacatamarca.com/quienes-somos/" target="_blank">Nosotros</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link"
-                    href="https://www.google.com/maps/place/Caseros+648,+K4702DGB+San+Fernando+del+Valle+de+Catamarca,+Catamarca,+Argentina/@-28.464446,-65.773477,13z/data=!4m5!3m4!1s0x942428954e6ac967:0xe4c20044411a616!8m2!3d-28.4694263!4d-65.7854293?hl=es-ES&entry=ttu" target="_blank">Ubicación</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#Contacto">Contacto</a>
-                  </li>
-                <li class="nav-item">
-                  <button id="whatsappButton" type="button" class="BotonWsp">WhatsApp</button>
-                </li>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </header>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
 
-       <!--Pie de Página-->
-  <footer class="bg-dark text-white">
+<body>
+  <!--Barra de Navegación-->
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img
+            src="https://roboticacatamarca.com/wp-content/uploads/2023/05/png_20230508_182927_0000-1-300x152.png" alt=""
+            class="LOGO"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://roboticacatamarca.com/quienes-somos/" target="_blank">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"
+                href="https://www.google.com/maps/place/Caseros+648,+K4702DGB+San+Fernando+del+Valle+de+Catamarca,+Catamarca,+Argentina/@-28.464446,-65.773477,13z/data=!4m5!3m4!1s0x942428954e6ac967:0xe4c20044411a616!8m2!3d-28.4694263!4d-65.7854293?hl=es-ES&entry=ttu"
+                target="_blank">Ubicación</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#Contacto">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <button id="whatsappButton" type="button" class="BotonWsp">WhatsApp</button>
+            </li>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--Información del Producto-->
+  <div class="container-fluid" id="contenedorProducto">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12">
+        <div class="col">
+          <div id="carouselExampleCaptions" class="carousel slide carrousel-estilos">
+            <div class="carousel-indicators carrousel-estilos">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner tamaño-carrousel">
+              <div class="carousel-item tamaño-carrousel active">
+                <img src="img/robot  (1).png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item tamaño-carrousel">
+                <img src="img/robot  (2).png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12" id="productoInfo">
+        <h1>Robot Base</h1>
+        <h5>Este robot base, construido con Arduino Uno, representa una emocionante plataforma de inicio en el mundo de
+          la robótica y la programación. Sus capacidades versátiles y personalizables lo convierten en un compañero de
+          aprendizaje ideal para entusiastas de todas las edades. Experimenta la emoción de crear y programar tu propio
+          robot, explorando conceptos clave de la robótica mientras desarrollas tus habilidades técnicas. Desde
+          movimientos básicos hasta proyectos más complejos, este robot base te proporciona la base perfecta para
+          desatar tu creatividad y explorar el apasionante universo de la robótica con Arduino Uno como tu aliado
+          confiable.</h5>
+        <ul>
+          <li>Seguro</li>
+          <li>Divertido</li>
+          <li>Resistente</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!--Pie de Página-->
+  <footer class="bg-dark text-white" id="Contacto">
     <!--Título-->
     <div id="tituloFooter" class="container text-center">
-      <h4 id="Contacto">¿Tienes alguna duda? ¡No dudes en contactarnos!</h4>
+      <h4>¿Tienes alguna duda? ¡No dudes en contactarnos!</h4>
     </div>
     <div class="container">
       <!--Formulario-->
@@ -132,10 +180,10 @@
     <hr>
     <div class="container-fluid text-center contenedorRedes">
       <h3>Redes sociales</h4>
-          <a href="https://instagram.com/roboticacatamarca?igshid=MzRlODBiNWFlZA=="><img src="img/instagram.svg"
-              class="logoFooter"></a>
-      <a href="https://www.facebook.com/profile.php?id=61550776822058&mibextid=ZbWKwL"><img src="img/facebook.svg"
-        class="logoFooter"></a>
+        <a href="https://instagram.com/roboticacatamarca?igshid=MzRlODBiNWFlZA=="><img src="img/instagram.svg"
+            class="logoFooter"></a>
+        <a href="https://www.facebook.com/profile.php?id=61550776822058&mibextid=ZbWKwL"><img src="img/facebook.svg"
+            class="logoFooter"></a>
         <h5>Copyright 2023 Robótica Catamarca &copy;</h5>
         <p>Todos los derechos reservados</p>
   </footer>
@@ -146,4 +194,5 @@
     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
     crossorigin="anonymous"></script>
 </body>
+
 </html>

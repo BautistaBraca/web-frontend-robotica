@@ -204,3 +204,7 @@ footer, h4 {
 #contenedorProducto{
   margin-top: 15%;
 }
+
+#productoInfo{
+  font-family: 'Orbitron', sans-serif;
+}
